@@ -5,3 +5,5 @@ function trocarParaVerde() {
 function trocarParaVermelho() {
     document.getElementById('container').style.backgroundColor = 'red';
 }
+
+//Esse é um comentário de exercício 12
