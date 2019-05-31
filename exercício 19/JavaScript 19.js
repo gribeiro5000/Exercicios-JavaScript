@@ -4,7 +4,7 @@ function parOuImpar(x) {
         if (x % 2 == 0) {
             return "O número é par"
         }
-        else if (x % 3 == 0 || x / 1 == 1) {
+        if (x % 3 == 0 || x / 1 == 1) {
             return "O número é impar"
         }
     }
