@@ -6,6 +6,5 @@ function soma(x, y) {
     if(regex.test(y) != true){
         y = 0;
     }
-    var i = parseInt(x) + parseInt(y);
-    alert("A soma de " + x + " e " + y + " é " + i)
+    return parseInt(x) + parseInt(y);
 }
