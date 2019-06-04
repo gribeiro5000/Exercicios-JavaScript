@@ -1,4 +1,8 @@
+function sortfunction(a, b) {
+    return a - b
+}
+
 function exibirDeFormaCrescente() {
-    var a = [5, 7, 1, 8, 9]
-    alert(a.sort())
+    var j = [5, 7, 1, 8, 9]
+    alert(j.sort())
 }
