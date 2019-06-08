@@ -1,0 +1,19 @@
+(6) No seu HTML exiba a imagem de uma lampada, ao clicar em cima da lampada, troque o src dela para a lampada que está acessa.
+https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/lampada.jpg
+https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/lampada-on.jpg
+
+(7) Agora que você já sabe utilizar o evento 'click', aprenda a usar o 'mouseover', ao passar o mouse em cima da 'lampada.jpg' altere ela para 'lampada-on.jpg'.
+
+(7.2) Faça 2 campos no HTML chamados: 'Nome', 'Sobrenome' e um botão 'Saudação'; ao clicar no botão exibir um alert: 'Olá {NOME} {SOBRENOME}'
+
+(8) no campo texto do exercício anterior, preencha um CPF (com pontuação e exiba o mesmo sem pontuação)
+
+(9) no campo texto do exercício anterior, preencha um CPF (sem pontuação e exiba o mesmo sem pontuação)
+
+(10) No HTML Crie:
+2 x - Campo/Input do tipo text. (id=soma1, id=soma1)
+1 x - Botão (id=btn-soma)
+1 x - Campo (id=resultado-soma)
+
+Caso esteja preenchido um valor númerico nos dois campos(id=soma1, id=soma1), 
+A soma deles ira aparecer no campo (id=resultado-soma) ao clicar no botão (id=btn-soma).

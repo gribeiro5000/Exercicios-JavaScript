@@ -1,0 +1,11 @@
+(23) Dentro da div com o id 'resultado', escreva 1x ('Repetição').
+
+(24) Dentro da div com o id 'resultado', escreva 2x ('Repetição').
+
+(25) Dentro da div com o id 'resultado', escreva 20x ('Repetição'). ('for')
+
+(26) Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (forEach)
+
+(27) Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (while)
+
+(28) Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (while)
