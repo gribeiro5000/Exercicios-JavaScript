@@ -1,0 +1,12 @@
+(29) Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (for, while ou foreach)
+
+(30) Dentro da div com o id 'resultado', escreva os números pares até 20.
+
+(31) Ok... chega de for(), mentira / #SQN... Exiba a tabuada do 1 até o 10
+
+(32) Crie uma função que informa se tem os caracteres 'dota' no parâmetro informado.
+Ex: 'Dota é melhor que LOL' (verdadeiro)
+
+(33) Exiba aleatoriamente um número pelo alert()
+
+(34) Agora faça um botão que ao clicar nele informa se a pessoa acertou o número.
