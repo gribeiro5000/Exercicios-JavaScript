@@ -1,0 +1,42 @@
+1 - Fazer um formulário apenas em html com os seguintes campos:
+    Nome completo (input text)
+    Email (input text)
+    Sexo (pode selecionar apenas 1 opção, não usar dropdown)
+    Estado civil (pode selecionar apenas 1 opção, não usar dropdown)
+    Bens que possui: (pode selecionar várias opções)
+    Faixa de idade (usar dropdown)
+        3 a 10 anos
+        11 a 25 anos
+        26 a 35 anos
+        36 a 55 anos
+        56 a 90 anos
+
+    Hobby preferido: (dropdown)
+        Livros
+        Música
+        Filmes
+        Esportes
+        Games
+    
+    Observações (input text com várias linhas)
+
+    botão de enviar
+    botão de limpar
+
+
+
+
+2 - No formulário, acrescentar a tag head por javascript.
+
+3 - Em js, validar se todos os campos estão preenchidos.
+
+------------------------------------------------------------------
+
+4 - Dar um alert para cada caractere de uma string.
+
+5 - Mesmo do anterior mas pegar uma string digitada em algum campo.
+
+6 - Criar 3 botões que abrem uma janela no browser.
+    a. Uma para abrir o site do google.
+    b. O mesmo que o 'a' mas com o tamanho de 350x400
+    c. o mesmo que o 'a' mas com barra de menu e scrollbars e tamanho 300x200
