@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF8">
+        <script src="formulário.js"></script>
+        <link rel="stylesheet" type="text/css" href="formulário.css">
+    </head>
+    <body>
+        <div class="container">
+            <article class="form">
+                <div class="head">
+                    <header>
+                        <h1>Formulário</h1>
+                    </header>
+                </div>
+                <div class="item">
+                    Nome Completo:<input class="textBox" id="nome" type="text">
+                </div>
+                <div class="item">
+                    Email:<input class="textBox" id="email" type="text">
+                </div>
+                <div class="item">
+                    <label>Sexo:</label>
+                    <br/>
+                    <input type="radio" name="genero" value="Homem"> Homem
+                    <br/>
+                    <input type="radio" name="genero" value="Mulher"> Mulher
+                </div>
+                <div class="item">
+                    <label>Estado Civil:</label>
+                    <br/>
+                    <input type="radio" name="estadoCivil" value="casado"> Casado(a)
+                    <br/>
+                    <input type="radio" name="estadoCivil" value="solteiro"> Solteiro(a)
+                    <br/>
+                    <input type="radio" name="estadoCivil" value="divorciado"> divorciado(a)
+                    <br/>
+                    <input type="radio" name="estadoCivil" value="viuvo"> Viúvo(a)
+                </div>
+                <div class="item">
+                    <label>Bens que Possui:</label>
+                    <br/>
+                    <input type="radio" name="residencia" value="residência própria"> Residência própria
+                    <br/>
+                    <input type="radio" name="herança" value="Herança de família"> Herança de família
+                    <br/>
+                    <input type="radio" name="automovel" value="Automóvel"> Automóvel
+                    <br/>
+                    <input type="radio" name="eletrodomesticos" value="Eletrodomésticos"> Eletrodomésticos
+                </div>
+                <div class="item">
+                    Idade:
+                    <select class="textBox" id="idade">
+                        <option value=""></option>
+                        <option value="3 a 10 anos">3 a 10 anos</option>
+                        <option value="11 a 25 anos">11 a 25 anos</option>
+                        <option value="26 a 35 anos">26 a 35 anos</option>
+                        <option value="36 a 55 anos">36 a 55 anos</option>
+                        <option value="56 a 90 anos">56 a 90 anos</option>
+                    </select>
+                </div>
+                <div class="item">
+                    Hobbies:
+                    <select class="textBox" id="hobbies">
+                        <option value=""></option>
+                        <option value="Livros">Livros</option>
+                        <option value="Músicas">Músicas</option>
+                        <option value="Filmes">Filmes</option>
+                        <option value="Esportes">Esportes</option>
+                        <option value="Games">Games</option>
+                    </select>
+                </div>
+                <div class="item">
+                    Observações:<textarea class="textBox" name="observaçoes" cols="50" rows="5"></textarea>
+                </div>
+                <div class="itembotao">
+                    <button class="botãoValidar" type="button" onclick="validarTudo()">Validar Tudo</button>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>

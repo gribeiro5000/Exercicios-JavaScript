@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.itembotao {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.botãoValidar {
+    border-radius: 10px;
+    border: 0px;
+    width: 110px;
+    height: 50px;
+    background-color: rgb(24, 43, 218);
+    font-size: medium;
+    color: white;
+}
+
+.botãoValidar:hover {
+    background-color: rgb(18, 32, 163);
+}
+
+.textBox {
+    border-radius: 5px;
+    border-color: rgb(190, 189, 189);
+    border-width: 1px;
+}
