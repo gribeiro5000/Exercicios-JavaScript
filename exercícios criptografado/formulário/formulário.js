@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function inserirHeading() {
+    document.getElementById("heading").innerHTML += "<h1>Formulário</h1>";
+})
+
 function validarTudo() {
 
     var nome = document.getElementById("nome").value;
